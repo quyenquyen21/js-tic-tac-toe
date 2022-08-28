@@ -1,1 +1,24 @@
-body{background-color: blueviolet;}
+body{
+    display: grid;
+    background-color: blueviolet;
+    justify-self: center;
+    align-self: center;
+    padding: 3rem;
+    max-width: 100vh;
+    text-align: center;
+    }
+    .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     height: 30rem;
+     width: 30rem;
+     align-self: center;
+     justify-self: center;
+     border: 1px solid black;
+     
+    }
+  
+    .grid-boxes{
+        border: 1px solid black;
+    }
